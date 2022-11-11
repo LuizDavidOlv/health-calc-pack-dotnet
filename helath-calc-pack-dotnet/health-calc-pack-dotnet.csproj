@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>helath_calc_pack_dotnet</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>Health Calc</Title>
+    <Authors>$(AssemblyName) </Authors>
+    <Description>Biblioteca para Cáculo de Saúde (IMC e Macronutrientes)</Description>
+    <RepositoryUrl>https://github.com/LuizDavidOlv/health-calc-pack-dotnet</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageIcon>tumblr_ba953dfc204cc34e0962cc36ced84f2a_d31208d8_128.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="tumblr_ba953dfc204cc34e0962cc36ced84f2a_d31208d8_128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

@@ -26,10 +26,5 @@ namespace helath_calc_pack_dotnet.Strategy
             
             return result;
         }
-
-        public double Calc(string Sexo, double Heigth, double Weight)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

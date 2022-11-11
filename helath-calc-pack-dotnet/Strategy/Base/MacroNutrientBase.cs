@@ -1,4 +1,4 @@
-﻿using helath_calc_pack_dotnet.Enums;
+﻿using health_calc_pack_dotnet.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;

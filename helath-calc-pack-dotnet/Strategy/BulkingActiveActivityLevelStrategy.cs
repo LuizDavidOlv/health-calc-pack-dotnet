@@ -1,4 +1,4 @@
-﻿using helath_calc_pack_dotnet.Enums;
+﻿using health_calc_pack_dotnet.Enums;
 using helath_calc_pack_dotnet.Interfaces;
 using helath_calc_pack_dotnet.Models;
 using helath_calc_pack_dotnet.Strategy.Base;
@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace helath_calc_pack_dotnet.Strategy
 {
-    public class BulkingActiveActivityLevelStrategy : MacroNutrientBase//, IMacroNutrientStrategy
+    public class BulkingActiveActivityLevelStrategy : MacroNutrientBase, IMacroNutrientStrategy
     {
         const int PROTEIN = 2;
         const int FAT = 2;

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace helath_calc_pack_dotnet.Enums
+namespace health_calc_pack_dotnet.Enums
 {
     public enum SexoEnum
     {

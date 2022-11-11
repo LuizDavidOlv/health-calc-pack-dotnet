@@ -5,7 +5,7 @@ namespace helath_calc_pack_dotnet
 {
     public class IMC : IIMC
     {
-        public double Calc(double weight, double height)
+        public double Calc( double height,double weight)
         {
             if(!IsValid(height,weight))
             {
